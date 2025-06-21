@@ -2,7 +2,7 @@
 R functions for calculating PST between two groups based on methylation levels.
 
 ## Usage
-1. Load the above two functions by sourcing this file in R (or simply copy and paste).
+1. Load the functions by sourcing the code file in R (or simply copy and paste the functions).
 
 2. Convert your methylation data into a matrix in R like this one:
 <pre>     AA_cold AA_warm AR_cold AR_warm RA_cold RA_warm RR_cold RR_warm
