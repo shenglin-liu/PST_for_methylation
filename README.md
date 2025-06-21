@@ -15,8 +15,8 @@ R functions for calculating PST between two groups based on methylation levels.
 `[6,]   0.867   0.700   0.864   0.846   0.783   0.909   0.893   0.852`
 
 4. Suppose that you are comparing between the two temperature treatments. Run a code like this:
-```group<-c(1,2,1,2,1,2,1,2)
-pst_methyl<-PST_for_methylation(methyl,group)```
+<pre lang="markdown"> ```group<-c(1,2,1,2,1,2,1,2)
+pst_methyl<-PST_for_methylation(methyl,group)``` </pre>
 
 5. pst_methyl is the output. It is a data frame looking like this:
 `          PST   meth1   meth2
