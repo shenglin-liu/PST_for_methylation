@@ -1,7 +1,7 @@
 # PST_for_methylation
 R functions for calculating PST between two groups based on methylation levels.
 
-## Usage
+## Usage (also can be found in the script file)
 1. Load the functions by sourcing the code file in R (or simply copy and paste the functions).
 
 2. Convert your methylation data into a matrix in R like this one:
@@ -13,11 +13,11 @@ R functions for calculating PST between two groups based on methylation levels.
 [5,]   0.689   0.756   0.636   0.750   0.622   0.771   0.712   0.700
 [6,]   0.867   0.700   0.864   0.846   0.783   0.909   0.893   0.852</pre>
 
-4. Suppose that you are comparing between the two temperature treatments. Run a code like this:
+4. Suppose that you are comparing between the two temperature treatments. Run a code like this (`methyl` is the matrix above):
 <pre>group<-c(1,2,1,2,1,2,1,2)
 pst_methyl<-PST_for_methylation(methyl,group)</pre>
 
-5. pst_methyl is the output. It is a data frame looking like this:
+5. `pst_methyl` is the output. It is a data frame looking like this:
 <pre>          PST   meth1   meth2
 1 0.261692638 0.77800 0.73350
 2 0.017424287 0.71950 0.73350
